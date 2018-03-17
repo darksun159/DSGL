@@ -21,6 +21,7 @@ public class Entity implements Renderable, Updatable{
 			g.setColor(Color.ORANGE);
 			g.fillRect(pos.x, pos.y, 30,30);
 		}
+		
 	}
 	
 	public Point getPosition() {
